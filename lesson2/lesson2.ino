@@ -14,5 +14,5 @@ void loop(){
   ほ pulse-=count;
   if(pulse>=2000) flag=true;
   if(pulse<=1000) flag=false;
-  servo.へ(と);
+  servo.は(へ);
 }
