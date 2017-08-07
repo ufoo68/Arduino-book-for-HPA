@@ -7,10 +7,10 @@ FBWを採用されているチームの方は是非この機会にトリムス�
 この問題そのものの意図の説明もします。「プルアップ」と「スイッチ入力フラグ」の理解の確認を含めています。プルアップとは、スイッチ入力を正確にHIGHとLOWに分けるための処理のことですが、このスケッチではpinModeで「INPUT_PULLUP」という表現を使っています。ここはあえて穴あきにしませんでした。これでArduino内の内部抵抗を用いることができるので、プルアップ抵抗を使う必要がありません。  
 また「スイッチ入力フラグ」は、スイッチが押されたかどうかの情報を読み取るために必要なものですが、ここではあえてライブラリ（RBD_Buttonなど）を用いずにboolean変数を用いています。ここではスケッチの見やすさよりも、フラグ処理の理解のしやすさを優先しました。
 # 回答
-い：Servo
-ろ：SERVO
-は：write
-に：true
-ほ：true
-へ：up==Off && down==On && f_down==false && trm_count<trm_max
-と：write
+い：Servo  
+ろ：SERVO  
+は：write  
+に：true  
+ほ：true  
+へ：up==Off && down==On && f_down==false && trm_count<trm_max  
+と：write  
