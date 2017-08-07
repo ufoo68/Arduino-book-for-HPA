@@ -12,5 +12,5 @@ FBWを採用されているチームの方は是非この機会にトリムス�
 は：write  
 に：true  
 ほ：true  
-へ：up==Off && down==On && f_down==false && trm_count<trm_max  
+へ：up==Off && down==On && f_down==false && trm_count>trm_max  
 と：write  
