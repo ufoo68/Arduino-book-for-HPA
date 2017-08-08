@@ -1,4 +1,4 @@
-#include<servo.h>
+#include<Servo.h>
 #define SERVO 9
 #define UP 5
 #define DOWN 6
