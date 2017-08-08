@@ -9,7 +9,7 @@ int val_min=0;
 int val_max=1023;
 い servo;
 void setup(){
-  servo.attach(ADC);
+  servo.attach(SERVO);
 }
 
 void loop(){
