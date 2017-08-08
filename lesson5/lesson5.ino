@@ -29,7 +29,7 @@ void loop(){
   up = digitalRead(UP);
   down = digitalRead(DOWN);
   val = analogRead(ADC);
-  if(up==off && down==off){
+  if(up==Off && down==Off){
     f_up=は;
     f_down=に;
   }
@@ -45,6 +45,6 @@ void loop(){
   }
 
   pulse = map(val, val_min, val_max, へ, と);
-  countrain(pulse, pulse_min, pulse_max);
+  constrain(pulse, pulse_min, pulse_max);
   servo.write(pulse);
 }
