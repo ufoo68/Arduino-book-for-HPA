@@ -37,7 +37,7 @@ void loop(){
     trm_count--;
     f_down=true;
   }
-  countrain(pulse, pulse_min, pulse_max);
+  constrain(pulse, pulse_min, pulse_max);
   servo.と(pulse);
 }
 
