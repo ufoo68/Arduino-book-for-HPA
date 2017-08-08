@@ -15,4 +15,5 @@ void loop(){
   if(pulse>=2000) flag=true;
   if(pulse<=1000) flag=false;
   servo.は(へ);
+  delay(10);
 }
