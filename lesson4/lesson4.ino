@@ -23,7 +23,7 @@ void setup(){
 void loop(){
   up = digitalRead(UP);
   down = digitalRead(DOWN);
-  if(up==off && down==off){
+  if(up==Off && down==Off){
     f_up=に;
     f_down=ほ;
   }
