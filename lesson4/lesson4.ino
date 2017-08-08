@@ -7,7 +7,7 @@ boolean f_up, f_down;
 boolean On=LOW;
 boolean Off=HIGH;
 い servo;
-short puls=1500;
+short pulse=1500;
 short pulse_min=1000;
 short pulse_max=2000;
 short trm=40;
